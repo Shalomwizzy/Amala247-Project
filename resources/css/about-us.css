@@ -1,0 +1,273 @@
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.cover-image{
+   height: 80vh !important;
+    width: 100%;
+    margin-top: 30px;
+   /* color: rgb(212, 10, 212);
+   color: rgb(1, 148, 1);
+   color: rgb(235, 235, 21);
+   color: rgb(7, 7, 240); */
+    filter: brightness(0.6);
+   
+}  
+
+.about-us1{
+    padding-left: 550px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+
+
+.display-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.second-image{
+    margin-top: -1000px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    
+   
+}
+
+.aboutus1-text p{
+    margin-top: 200px;
+    line-height: 35px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 100px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+    
+  
+}
+
+/* SATISFACTION SECTION */
+
+.satisfaction{
+ margin-top: 50px !important;
+ margin-bottom: 50px;
+ height: 350px;
+ padding: 40px;
+ align-items: center;
+ background-color: #E9E9E9;
+
+}
+
+.satisfaction p{
+    border: 3px solid;
+    border-color:rgb(233, 0, 63);
+    border-top-color: white;
+    height: 176px;
+    width: 176px;
+    border-radius: 50%;
+    padding: 70px;
+    font-size: 24px;
+    font-weight: bold;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.satisfaction span{
+    padding: 40px;
+    font-size: 16px;
+    margin: 10p;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Media Query */
+
+        /* 320 */
+@media screen and (max-width:320px){
+
+    .second-image{
+     
+      margin-bottom: 500px !important;
+        
+    }
+
+    .aboutus1-text{
+        padding-top: 150px;
+    
+    }
+
+  
+
+
+
+    .footer-items{
+        width: 400px;
+    }
+
+    
+
+}
+
+               /* 540 */
+
+@media screen and (max-width:540px){
+    .cover-image{
+        height: 330px !important;
+        width: 370px !important;
+        margin: 10px;
+        }
+    
+        .about-us1{
+         padding-left: 60px;
+    
+         
+        }
+        .aboutus1-text{
+           margin-top: 20px;
+        }
+        .aboutus1-text p{
+            font-size: 12px;
+            
+        }
+    
+        .satisfaction{
+            font-size: 5px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: -50px;
+        }
+    
+        .satisfaction p{
+           margin: 10px;
+            height: 100px;
+            width: 100px; 
+            padding: 20px; 
+            
+        }
+
+        .satisfaction span{
+          font-size: 10px;
+         
+        }
+
+        .second-image{
+      
+            padding: 20px;
+            margin-top: -2550px;
+            
+        }
+}
+
+             /* 375 */
+
+@media screen and (max-width:375px){
+    .cover-image{
+        height: 330px !important;
+        width: 370px !important;
+        margin: 10px;
+        margin-top: 10px;
+        }
+    .aboutus1-text p{
+        font-size: 10px;
+    }
+
+    .second-image{
+      
+        padding: 20px;
+        margin-bottom: -350px;
+    }
+
+}
+          /* 414 */
+@media screen and (min-width:414px){
+
+    .second-image{
+      
+        padding: 20px;
+        margin-bottom: -200px;
+       
+    }
+}
+            /* 412 */
+@media screen and (min-width:412px){
+
+    .second-image{
+      
+        padding: 20px;
+        margin-bottom: -200px;
+       
+    }
+}
+          /* 820 */
+@media screen and (min-width:820px){
+
+    .cover-image{
+        height: 450px !important;
+      
+        }
+    .second-image{
+      
+        padding: 20px;
+        margin-bottom: 550px;
+       
+    }
+
+    .aboutus1-text{
+      padding-top: 100px;
+    }
+}
+          /* 768 */
+@media screen and (min-width:768px){
+
+    .cover-image{
+        height: 450px !important;
+      
+        }
+    .second-image{
+      
+        padding: 20px;
+        margin-bottom: 550px;
+       
+    }
+
+    .aboutus1-text{
+      padding-top: 100px;
+    }
+}
+         /* 912 */
+@media screen and (min-width:912px){
+
+
+    .second-image{
+        padding: 20px;
+        margin-bottom: 400px;
+    }
+
+    .aboutus1-text p{
+        font-size: 14px ;
+        
+    }
+      
+  
+    
+}

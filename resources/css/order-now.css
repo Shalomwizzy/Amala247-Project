@@ -1,0 +1,235 @@
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+/* SEARCH BUTTON */
+.search-btn{
+    margin-top: 100px;
+    height: 30px ;
+    width: 300px;   
+}
+
+
+.submit{
+    height: 50px;
+}
+
+
+.search-btn input{
+    height: 50px;
+}
+
+ .search-btn span{
+   margin-left: 20px;
+   padding: 20px;
+   font-size: 14px;
+   font-weight: lighter;
+
+} 
+
+/* DEFAULT PRICE LIST */
+
+.default{
+    margin-top: 110px;
+}
+
+/* CATEGORIES */
+
+.product-categories{
+    margin-top: 50px;
+    border: 1px solid;
+    width: 300px;
+    height: 520px;
+    margin-left: 90px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.product-number{
+    background-color: #f7f4ef;
+}
+
+.product-categories ul.product-number li{
+    padding: 0 20px;
+    position: relative;
+    margin-top: -2px;
+    padding: 12px;
+    cursor: pointer;
+   
+}
+
+li{
+    display: list-item;
+    text-align: webkit-match-parent;
+    list-style: none;
+}
+  /* PRODUCT-NUMBER */
+.product-categories ul.product-number span{
+    padding-left: 40px;
+   
+}
+.product-number .number1{
+    padding: 40px;  
+}
+
+.product-number .number3{
+   margin-left: 30px;
+}
+
+.product-number .number4{
+    margin-left: 30px;
+}
+
+.product-number .number5{
+    margin-left: 20px;
+}
+
+.product-number .number6{
+    margin-left: 35px;
+}
+
+.product-number .number7{
+    margin-left: 30px;
+}
+
+.product-number li a{
+    text-decoration: none;
+    color: var(--dark);   
+}
+
+.product-number li a:hover{
+    background-color: #eeac50;
+   
+}
+
+
+
+/* PRODUCT LIST */
+
+.product-list{
+   margin-right: -35px;
+   
+   margin-bottom: 100px !important;
+}
+
+
+
+.product-list img{
+height: 250px;
+object-fit: cover;
+
+}
+
+
+
+.product-list button {
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 5px;
+    color: red;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-list a{
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 5px;
+    color: red;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-name{
+    padding-left: 18px;
+    padding-top: 45px;
+    font-size: 18px;
+   
+}
+
+.product-name a:hover{
+    background-color: rgba(0, 0, 0, 0.49);
+    transition: 1s;
+}
+
+.product-name span{
+    padding-left: 15px;
+    padding-bottom: 65px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+
+ .order-button{
+   padding-right: -80px !important;
+  
+}
+
+.search-input {
+    width: 60%;
+    max-width: 300px; 
+}
+
+
+
+/* 
+.order-button button,a:hover{
+    background-color: var(--light);
+} */
+
+@media screen and (max-width:550px){
+    .search-default button{
+        margin-left: 10px;
+        height: 45px;
+        
+    }
+
+    .search-btn input{
+        height: 45px !important;
+    }
+
+    .default-list button{
+       margin-top: -10px !important;
+    }
+
+    .product-categories{
+       margin-left: 35px;
+      
+    }
+
+    .product-list{
+      margin-right: 10px;
+      margin-left: 30px;
+      width: 350px;
+      
+    }
+
+    .search-btn span{
+        font-size: 12px;
+    }
+
+
+/* In your CSS */
+@media (max-width: 767px) {
+    .flex-wrap-break {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+   
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .progress-container {
+            margin-top: 20px;
+        }
+
+        .custom-bar {
+            width: 1200px;
+            height: 35px; /* Increased height for better visibility */
+            background-color: #ddd;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 10px; /* Added margin between the progress bars */
+        }
+
+        .custom-bar .custom-red-check {
+            width: 66.6%; /* Adjusted to 66.6% for the second line */
+            height: 100%;
+            background-color: red;
+            position: absolute;
+        }
+
+        .custom-bar .custom-icons-cart {
+            position: absolute;
+            top: -5px; /* Adjust the positioning outside the line */
+            left: 33.3%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+        }
+
+        .custom-bar .custom-icons-motorcycle {
+            position: absolute;
+            top: -5px; /* Adjust the positioning outside the line */
+            left: 66.6%; /* Adjusted to align with the end of the red color for the second line */
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+        }
+
+        .custom-bar .custom-icons-cart .fa-cart-shopping,
+        .custom-bar .custom-icons-motorcycle .motorcycle-icon {
+            color: white;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-weight: bold;
+            font-size: 20px;
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            padding: 5px;
+            margin-top: 8px;
+            border-radius: 50%;
+        }
+
+        .custom-bar .custom-labels {
+            position: absolute;
+            top: 10px; /* Adjusted the vertical positioning outside the line */
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .custom-bar .custom-labels span {
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            width: 33.3%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="progress-container">
+    
+    <!-- Second Line -->
+    <div class="custom-bar">
+        <div class="custom-red-check" style="width: 66.6%;"></div>
+        <div class="custom-icons-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="custom-icons-motorcycle">
+            <i class="fa-solid fa-motorcycle motorcycle-icon"></i>
+        </div>
+        <div class="custom-labels">
+            <span>Order Placed</span>
+            <span>Dispatched</span>
+            <span>Delivered</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,75 @@
+:root{
+    --primary:red;
+    --secondary:blue;
+    --light:white;
+    --dark:black;
+    --text-lg: 30px;
+    --text-md: 20px;
+    --text-sm:16px;
+     
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+}
+
+.footer-items {
+    color: red;
+    background-color: black;
+    margin-bottom: 20px;
+    padding: 20px; 
+    box-sizing: border-box; 
+    max-width: 100%; 
+}
+
+@media screen and (max-width: 768px) { 
+    .footer-items {
+        width: fit-content; 
+    }
+}
+
+.footer-items a img{
+    width: 230px;
+    padding: 30px;
+    
+}
+
+.footer-items h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 50px;
+   
+   
+    
+}
+
+ .about-us a{
+    text-decoration: underline;
+    color: red;
+   
+}
+
+
+.connect-us a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.company-footer a{
+    color: red;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+
+
+.all-right{
+    padding-top: 40px;
+    color: white;
+}

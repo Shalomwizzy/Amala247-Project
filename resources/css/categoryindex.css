@@ -1,0 +1,98 @@
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.category-image {
+    max-width: 100px;
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* Add custom styles for the categories index page */
+.category-image {
+    max-width: 100px;
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Style the View button */
+.btn-sm.view-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+    background-color: var(--primary); /* Green */
+    color: white;
+}
+
+/* Style the Edit button */
+.btn-sm.edit-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+    background-color: var(--secondary); /* Blue */
+    color: white;
+}
+
+/* Style the Delete button */
+.btn-sm.delete-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+    background-color: #f44336; /* Red */
+    color: white;
+}

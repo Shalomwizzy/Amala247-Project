@@ -1,0 +1,364 @@
+:root{
+    --primary:red;
+    --secondary:blue;
+    --light:white;
+    --dark:black;
+    --text-lg: 30px;
+    --text-md: 20px;
+    --text-sm:16px;
+     
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body-section{
+    background-color: #fffcfc;
+    background: fixed;
+    
+}
+/* NAV BAR SECTION */
+
+/* .nav-tog span{
+    font-size: 35px !important;
+    
+} */
+
+
+.amala247{
+    font-family: 'Lobster Two', cursive;
+   
+}
+.ahref-text{
+    color: var(--Primary) !important;
+    font-weight: bold;
+
+}
+
+.navbarcontainer a {
+    color: var(--Primary) ; 
+    border-color: var(--Primary);
+    font-weight: bold;
+}
+
+ .navbarheader{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbarheader a:hover{
+    background-color: var(--dark);
+    transition: 1s;
+}
+/*FIRST-HEADING SECTION */
+.first-heading{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    line-height: 25px;
+    font-style: italic;
+    font-family: sans-serif, 'lobster two';
+    font-weight: light;
+
+}
+
+.first-amala{
+    color: var(--light);
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    
+   
+}
+
+/* CAROUSEL SECTION */
+.carousel-images{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carousel-images img{
+    aspect-ratio: 17/9;
+    filter: brightness(0.4);
+    object-fit: cover;
+}
+
+.carousel-images .carousel-indicators button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.carousel-images .carousel-indicators .active{
+    background-color: var(--Primary);
+}
+
+
+.carousel-images .carousel-caption{
+    color: var(--light);
+    top: 50%;
+    font-size: 16px;
+    font-style: italic;
+    font-family: sans-serif, 'lobster two';
+}
+
+.aslow-onek{
+    font-size: 25px;
+    font-family: sans-serif 'lobster two';
+    font-style: italic;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+
+/* VARIETIES SECTION */
+
+.foodname-price img{
+    object-fit: cover;
+    gap: 10px;
+}
+
+.foodname-price a{
+    text-decoration: none;
+    color: var(--dark);
+   
+
+}
+
+.foodname-price a p{
+padding-left: 50%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.foodname-price a  :hover{
+    background: var(--primary);
+    transition: 2s;
+    
+}
+
+
+
+/* ORDER ONLINE */
+.section-order{
+    margin: 20px;
+    margin-bottom: 50px;
+  
+}
+.order-online-fa{
+    font-size: 100px;
+    color: var(--primary);
+}
+
+.order-text{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.order-online-watsapp :hover{
+    background-color: rgba(24, 23, 23, 0.874);
+    transition: 1.5s;
+}
+
+/* QUALITY ASSURANCE */
+
+.quality-assure{
+    color: var(--light);
+    background-color: red;
+    padding: 30px;
+    line-height: 2.0;
+    font-size: 16px;
+    margin-bottom: 0.3px;
+}
+
+/* SUB-FOOTER SECTION */
+.center-align{
+    display: box;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center; 
+    margin-bottom: -48px;
+}
+.background-img{
+    position: relative;
+}
+
+.text-input{
+    position: absolute;
+}
+.center-align img{
+    height: 800px ;
+    width: 100%;
+    object-fit: cover;
+}
+.text-input h3{
+    color: white;
+    padding-bottom: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-input p{
+color: var(--primary);
+font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 150px;
+}
+
+.social-medial-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 500px;
+   padding-right: 500px;
+   margin-top: 20px;  
+}
+
+.social-medial-link a{
+    color: red;
+    background-color: white;
+   font-size: 30px;
+   border: 2px solid;
+   border-radius: 50%;
+   padding: 6px;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:667px){
+    /* foodname */
+.foodname-price img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.foodname-price a p{
+  font-size: 16px;
+  margin-left: -40px !important;
+}
+/* order-online */
+.order-online-watsapp{
+    padding: 15px;
+}
+.order-online-watsapp span{
+ font-size: 18px;
+}
+/* text-input */
+ .text-input h3{
+   padding-top: 250px;
+   font-size: 16px;
+ }
+ .social-medial-link a{
+   margin-bottom: 200px;
+
+ }
+
+
+}
+
+@media screen and (max-width:400px) {
+    /* foodname */
+    .foodname-price img{
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+
+    .foodname-price a p{
+        font-size: 14px;
+        margin-left: -60px !important;
+      }
+
+      /* order-online */
+.order-online-watsapp{
+    padding: 13px;
+}
+.order-online-watsapp span{
+ font-size: 16px;
+}
+.quality-assure h2{
+    font-size: 18px;
+}
+
+.quality-assure p{
+font-size: 14px;
+}
+
+.text-input p{
+font-size: 16px;
+}
+}
+
+@media screen and (max-width:912px) {
+    .foodname-price img{
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+
+    .order-online-watsapp{
+        padding: 13px;
+    }
+    .order-online-watsapp span{
+     font-size: 18px;
+    }
+
+    .quality-assure h2{
+        font-size: 22px;
+    }
+    
+    .quality-assure p{
+    font-size: 18px;
+    }   
+}
+
+@media screen and (max-width:390px){
+
+    .first-heading {
+        font-size: 14px;
+    }
+
+    .aslow-one{
+        font-size: 14px;
+    }
+    .foodname-price img{
+        width: 320px;
+        height: 300px;
+        object-fit: cover;
+        margin: 20px;
+    }
+
+    .order-online-watsapp{
+        padding: 13px;
+    }
+    .order-online-watsapp span{
+     font-size: 12px;
+    }
+
+    .quality-assure h2{
+        font-size: 18px;
+    }
+    
+    .quality-assure p{
+    font-size: 12px;
+    }   
+
+    .all-right{
+        font-size: 14px;
+    }
+}

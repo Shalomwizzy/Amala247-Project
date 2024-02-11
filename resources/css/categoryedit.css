@@ -1,0 +1,55 @@
+.edit-container {
+    background-color: #f8f8f8;
+}
+
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.edit-card {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-card-header {
+    font-size: 1.2rem;
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* Styles for form groups and labels */
+.edit-form-group label {
+    font-weight: bold;
+}
+
+/* Styles for primary and secondary buttons */
+.edit-btn{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.edit-btn:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.edit-cancel {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.edit-cancel:hover {
+    background-color: red;
+    border-color: red;
+}

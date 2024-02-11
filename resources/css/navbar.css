@@ -1,0 +1,298 @@
+:root{
+ --primary:red;
+ --secondary:blue;
+ --light:white;
+ --dark:black;
+ --text-lg: 30px;
+ --text-md: 20px;
+--text-sm:16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.body-section{
+  background-color: #fffcfc ;
+  background: fixed;
+}
+/* NAV BAR SECTION */
+
+.nav-tog span{
+  font-size: 35px;
+}
+
+.guest-nav{
+  height: 80px;
+}
+
+.amala247{
+  font-family: 'Lobster Two', cursive;
+ 
+}
+
+.ahref-text{
+ color: var(--primary) !important;
+  font-weight: bold;
+  /* font-size: 50px; */
+}
+
+.navbarcontainer a {
+  color: var(--primary) !important; 
+  border-color: var(--primary) !important;
+  font-weight: bold;
+}
+
+.navbarheader{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.navbarheader a:hover{
+  background-color: var(--light);
+  transition: 1s;
+}
+
+.sub-nav-guest a:hover{
+  background-color: var(--light);
+  transition: 1s;
+  border-color: white !important;
+}
+
+.nav-item a .badge {
+  position: relative;
+ 
+}
+
+
+
+.navbar-toggler-icon-white {
+  background-color: white;
+}
+
+
+
+.badge {
+  font-size: 18px !important;
+  color: var(--secondary);
+  background-color: var(--light) !important;
+  padding: 3px;
+  position: relative;
+  left: -25px;
+  top: -10px;
+}
+
+
+
+.cart-logo {
+  font-size: 25px;
+}
+
+.cart-logo:hover {
+  transform: scale(0.9) !important; 
+  transition: transform 0.3s ease !important; 
+}
+
+.heart-logo:hover {
+  transform: scale(0.9) !important; 
+  transition: transform 0.3s ease !important; 
+}
+
+
+.heart-logo {
+  font-size: 25px;
+}
+
+/* FIXED BOTTOMS FOR PHONES  */
+
+.fixed-bottom-btns {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 9999; 
+}
+
+.fixed-bottom-btns a {
+  margin-right: 10px; 
+}
+
+.fixed-bottom-btns img.logo {
+  height: 30px; 
+}
+
+
+
+/* AUTH USER */
+
+.auth-user-navbar{
+  height: 80px;
+}
+
+.auth-user-navbar a:hover{
+  background-color: var(--light);
+
+}
+
+
+
+.logout-btn{
+  margin-left: 20px;
+  color: var(--primary);
+  
+}
+
+.logout-btn:hover{
+  background-color: var(--light);
+  
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: black;
+  }
+
+  .navbar-nav {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .navbar-toggler {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0 5px;
+  }
+}
+@media (max-width: 767px) { /* Apply only for phone versions */
+  .navbar-nav .nav-item:last-child .nav-link i.cart-logo,
+  .navbar-nav .nav-item:last-child .nav-link i.heart-logo {
+    display: none; /* Hide Cart and Wishlist icons */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Apply only for phone versions */
+  .fixed-bottom-btns {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    z-index: 9999;
+  }
+
+
+  .fixed-bottom-btns a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fixed-bottom-btns img {
+    max-width: 40px;
+  }
+  /* Additional styles to improve phone display */
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand img {
+    max-width: 40px;
+    margin-right: 10px;
+  }
+  .navbar-brand span {
+    font-size: 14px;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .nav-item {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* ... (existing styles for phone) ... */
+  /* Additional styles for phone navigation items */
+  .navbar-nav {
+    flex-direction: column; /* Display items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+  .nav-item {
+    margin-bottom: 0.5rem; /* Add spacing between items */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Apply only for phone versions */
+  /* Additional styles for phone display */
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand img {
+    max-width: 40px;
+    margin-right: 10px;
+  }
+  .navbar-brand span {
+    font-size: var(--text-sm);
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  .nav-item {
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Hide bottom buttons on desktop */
+  .fixed-bottom-btns {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+    

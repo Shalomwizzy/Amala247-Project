@@ -1,0 +1,30 @@
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url(../images/amala247\ bacground\ white.jpg);
+}
+
+.side-text h3{
+    font-size: 28px;
+    font-family: 'lobster two';
+}
+
+.side-text h1{
+    font-size: 20px;
+    font-family: 'lobster two';
+    font-weight: bold;
+}

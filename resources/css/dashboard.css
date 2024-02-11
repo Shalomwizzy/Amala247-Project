@@ -1,0 +1,86 @@
+:root{
+    --primary:red;
+    --secondary:blue;
+    --light:white;
+    --dark:black;
+    --text-lg: 30px;
+    --text-md: 20px;
+    --text-sm:16px;
+     
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+
+
+
+
+.welcome-text{ 
+ font-size: 25px !important;
+ font-family: 'Raleway Dots', cursive !important;
+ margin-left: 40px;  
+}
+
+.account-dashboard p a{
+    color: var(--primary);
+}
+
+.dash-details{
+margin-top: 50px !important;
+    
+}
+
+.dash-details a{
+   padding-bottom: 50px;
+   text-decoration: none;
+   color: var(--primary);
+   font-size: 16px;
+}
+
+.span img{
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+}
+hr{
+    width: 280px;
+}
+
+/* .dash-details:hover{
+    background-color: rgb(24, 24, 24); 
+} */
+
+.dashboard-logo{
+    margin-left: 170px;
+}
+
+.order-logo{
+  margin-left: 200px;
+}
+
+
+.address-logo{
+    margin-left: 190px;
+}
+
+.account-logo{
+    margin-left: 140px;
+}
+
+/* ACCOUNT DASHBOARD */
+
+.account-dashboard{
+ font-size: 14px;
+ font-family:  Arial, Helvetica, sans-serif;
+}
+
+.account-dashboard a{
+    color: var(--primary);
+    text-decoration: none;
+}

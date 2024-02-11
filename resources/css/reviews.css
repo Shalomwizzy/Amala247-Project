@@ -1,0 +1,104 @@
+.review-text {
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 60px !important; 
+     
+}
+
+.admin-response{
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 60px !important; 
+}
+
+
+.review-and-reply {
+    max-width: 100%;
+    overflow-x: auto;
+    position: relative;
+}
+
+.number-of-reviews{
+    font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(110, 100, 100);
+}
+
+.review-and-reply::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px; 
+    background-color: rgba(0, 0, 0, 0.411);
+    height: auto;
+    margin-left: 50px; 
+}
+
+
+.admin-response-text{
+  text-decoration: none;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.admin-review-reply{
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ font-weight: bold;
+}
+
+.show-full-text .full-text {
+display: inline;
+}
+
+.show-full-text #dots {
+display: none;
+}
+
+.full-text {
+    white-space: normal;
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+}
+
+.mb-4 {
+    margin-bottom: 4rem; /* Adjust the value for the desired space */
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    font-size: 20px;
+    margin-bottom: -px !important;
+}
+
+.rating > span {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.review-image{
+    object-fit: cover;
+}
+
+.btn-link {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+}

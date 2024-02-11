@@ -1,0 +1,109 @@
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-image: url(../images/amala247\ bacground\ white.jpg) !important;
+  
+    filter: brightness(0.9);
+}
+.contact-us{
+    object-fit: cover;
+}
+
+
+
+.form-input{
+    width: 500px;
+}
+
+.contact-info {
+    padding-top: 100px;
+   
+}
+
+.contact-info p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-header{
+    font-weight: bold;
+}
+
+.get-touch{
+    margin-left: 500px;
+}
+
+.google-mab{
+    margin-top: 50px;
+}
+/* MEDIA QUERY */
+@media screen and (max-width:550px){
+
+     .nav-bar{
+       width: 420px !important;
+     }
+    .get-touch{
+        margin: 0;
+        
+    }
+
+    .form-input{
+        width: 400px !important;
+    }
+
+    .google-mab{
+     width: 400px;
+     height: 400px;
+    }
+
+    .first-image{
+        width: 400px;
+        
+    }
+
+   .footer-items{
+    width: 420px !important;
+   }
+
+
+}
+
+@media screen and (max-width:912px){
+
+    .nav-bar{
+        width: 900px;
+      }
+
+    .get-touch{
+        margin: 0;
+       
+    }
+
+    .google-mab{
+        margin-top: 250px;
+    }
+
+    .form-input{
+      width: 450px;
+    }
+
+    .footer-items{
+        width: 900px;
+       }
+
+   
+}
+

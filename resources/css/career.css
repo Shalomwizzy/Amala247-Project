@@ -1,0 +1,42 @@
+:root{
+    --Primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-image: url(../images/amala247\ bacground\ white.jpg);
+}
+
+.career{
+    background-color: rgba(255, 255, 255, 0);
+   margin-top: 100px;
+}
+
+
+.career h1{
+    font-size: 50px;
+    font-family: 'lobster two';
+    font-weight: bold;
+
+}
+
+.career p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.career a{
+  
+   text-decoration: none;
+}

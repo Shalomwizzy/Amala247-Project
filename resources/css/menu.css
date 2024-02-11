@@ -1,0 +1,205 @@
+:root{
+  --primary:red;
+ --secondary:blue;
+ --light:white;
+ --dark:black;
+ --text-lg: 30px;
+ --text-md: 20px;
+--text-sm:16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+
+.menu-body{
+ 
+background-image: url(/public/images/amala247\ background\ red.jpg);
+
+}
+
+.food-menu{
+  color: var(--light);
+  font-size: 40px;
+  font-family: 'lobster two';
+  padding-top: 200px;
+
+}
+
+
+.display-style{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+   
+    
+}
+
+.display-style h2{
+font-size: 25px;
+font-family: 'lobster two';
+
+}
+
+.display-style table tr :hover{
+  background-color: #FFFFFF2D;
+  
+}
+
+.swallow-list{
+   color: var(--light);
+   border: 2px solid var(--light);
+   border-radius: 10px;
+   width: 450px;
+   height: 270px;
+   padding: 14px;
+   margin-left: 240px;
+   margin-bottom: 18px;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   
+   
+ }
+
+
+.hide{
+    visibility: hidden;
+    opacity: 0.0;
+}
+
+.food-name a{
+text-decoration: none;
+color: var(--light)
+
+}
+
+.food-price{
+    padding-left: 180px;
+    color: var(--light)
+}
+
+.swallow-list td{
+   padding-top: 5px;
+}
+
+/* BREAKFAST SECTION */
+
+.breakfast-list{
+  color: var(--light);
+  border: 2px solid var(--light);
+  border-radius: 10px;
+  width: 450px;
+  height: 270px;
+  padding: 14px;
+  margin-right: 135px;
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.breakfast-list td{
+  padding-top: 5px;
+}
+
+
+
+/* MEAL SECTION */
+
+.meal-list{
+    color: var(--light);
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    width: 450px;
+    height: 540px;
+    padding: 18px;
+    margin-left: 240px;
+    margin-top: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .meal-list td{
+    padding-top: 10px;
+  }
+
+  /* SOUP SECTION */
+
+  .soup-list{
+    color: var(--light);
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    width: 450px;
+    height: 540px;
+    padding: 18px;
+    margin-right: 135px;
+    margin-top: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .soup-list td{
+    padding-top: 10px;
+  }
+
+  /* PROTEIN SECTION  */
+  .protein-list{
+    color: var(--light);
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    width: 450px;
+    height: 540px;
+    padding: 18px;
+    margin-left: 240px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .protein-list td{
+   padding-top: 21px;
+  }
+
+  /* SAUCE SECTION */
+  .sauce-list{
+    color: var(--light);
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    width: 450px;
+    height: 540px;
+    padding: 18px;
+    margin-right: 135px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .sauce-list td{
+    padding-top: 10px;
+  }
+
+  /* DRINK SECTION */
+  .drink-list{
+    color: var(--light);
+    border: 2px solid var(--light);
+    border-radius: 10px;
+    width: 600px;
+    height: 540px;
+    padding: 18px;
+   margin-left: 350px;
+   padding-left: 100px;
+   margin-top: 35px;
+   margin-bottom: 100px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+    
+  }
+
+  .drink-list td{
+    padding-top: 21px;
+  }

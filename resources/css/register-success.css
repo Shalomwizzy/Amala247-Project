@@ -1,0 +1,36 @@
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ .welcome h1{
+    font-size: 28px;
+    text-align: center;
+    font-family: lobster Two;
+    font-weight: bold;
+}
+
+
+.welcome p {
+    text-align: center;
+    margin-bottom: 20px;
+}

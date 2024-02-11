@@ -1,0 +1,70 @@
+
+
+:root{
+    --primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-nav {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.admin-nav .navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: white; /* Set text color to white */
+}
+
+.admin-nav .navbar-toggler {
+    border: none;
+}
+
+.admin-nav .navbar-toggler-icon {
+    background-color: white; /* Set icon color to white */
+}
+
+.admin-nav .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.admin-nav .nav-link {
+    color: white; /* Set text color to white */
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.admin-nav .logout-btn {
+
+    font-weight: bold;
+}
+
+.admin-nav .navbar-nav .nav-item:last-child {
+    margin-left: auto;
+}
+
+@media (max-width: 767px) {
+    .admin-nav .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .admin-nav .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+}
+
+
+
+

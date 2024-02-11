@@ -1,0 +1,37 @@
+:root{
+    --Primary:red;
+   --secondary:blue;
+   --light:white;
+   --dark:black;
+   --text-lg: 30px;
+   --text-md: 20px;
+  --text-sm:16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/public/images/amala247\ bacground\ white.jpg);
+}
+
+.value h1{
+    font-size: 30px;
+    font-family: 'lobster two';
+    margin: 20px;
+}
+
+.value p{
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'lobster two';
+}
+
+.value strong{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'lobster two';
+}
